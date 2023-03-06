@@ -745,7 +745,9 @@ a {
 .modal-check {
   color: var(--modal-text);
 }
-
+.checkbox {
+  cursor: pointer;
+}
 .text-input-div {
   display: flex;
   flex-direction: column;
@@ -764,6 +766,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   margin: 0 auto;
+  cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   color: var(--color-white);
   background-color: var(--color-min);
