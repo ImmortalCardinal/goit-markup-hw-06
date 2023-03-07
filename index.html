@@ -860,7 +860,8 @@
             <h2 class="modal-caption">Leave your contacts and we will call you back</h2>
 
             <form class="modal-form" name="form-modal" autocomplete="on" novalidate>
-                <div class="text-input-div">
+
+                <div class="text-input">
 
                     <label class="modal-label" for="modal-name">
 
@@ -879,79 +880,98 @@
 
                 </div>
 
-                <div class="text-input-div">
-
-                    <label class="modal-label" for="modal-phone">Phone</label>
-
-                    <div class="form-icon">
-                        <input class="input" type="tel" id="modal-phone" name="modal-phone" pattern="^\[0-9]{12}">
-
-                        <svg class="modal-icon">
-
-                            <use href="./images/icons.svg#icon-phone">
-                            </use>
-
-                        </svg>
-                    </div>
 
 
+                <label class="modal-label" for="modal-phone">Phone</label>
 
+                <div class="form-icon">
+                    <input class="input" type="tel" id="modal-phone" name="modal-phone" pattern="^\[0-9]{12}">
+
+                    <svg class="modal-icon">
+
+                        <use href="./images/icons.svg#icon-phone">
+                        </use>
+
+                    </svg>
                 </div>
 
-                <div class="text-input-div">
-
-                    <label class="modal-label" for="modal-email">Email</label>
-
-                    <div class="form-icon">
-
-                        <input class="input" type="email" id="modal-email" name="modal-email">
-
-                        <svg class="modal-icon">
-
-                            <use href="./images/icons.svg#icon-email">
-                            </use>
-
-                        </svg>
-                    </div>
 
 
 
+
+
+                <label class="modal-label" for="modal-email">Email</label>
+
+                <div class="form-icon">
+
+                    <input class="input" type="email" id="modal-email" name="modal-email">
+
+                    <svg class="modal-icon">
+
+                        <use href="./images/icons.svg#icon-email">
+                        </use>
+
+                    </svg>
                 </div>
 
-                <div class="text-input-div">
 
-                    <label class="modal-label" for="modal-comment">Comment</label>
 
-                    <textarea class="modal-comment-area" type="modal-comment" placeholder="Text input"
-                        id="modal-comment" name="modal-comment"></textarea>
 
-                </div>
+
+                <label class="modal-label" for="modal-comment">Comment</label>
+
+                <textarea class="modal-comment-area" type="modal-comment" placeholder="Text input" id="modal-comment"
+                    name="modal-comment"></textarea>
+
+
 
 
                 <div class="modal-link-checkbox">
-                    <label class="modal-check" for="modal-checkbox">
+                    <input class="checkbox" type="checkbox" id="modal-checkbox" name="modal-checkbox">
 
-                        <input class="checkbox" type="checkbox" placeholder="Text input" id="modal-checkbox"
-                            name="modal-checkbox">
+
+
+                    <div class="checkbox-icon-container">
+
+                        <svg class="checkbox-form-icon">
+
+                            <use class="checkbox-icon" href="./images/icons.svg#icon-click"></use>
+
+                        </svg>
+
+                    </div>
+
+                    <label class="modal-check
+                    " for="modal-checkbox">
 
                         <span class="text-checkbox">
+
                             I accept the terms and conditions of the
                             <a class="modal-link " href="#">Privacy
                                 Policy</a>
-                        </span>
 
+                        </span>
 
                     </label>
 
+
                 </div>
 
-            </form>
+                <div class="modal-button-container">
 
-            <div class="modal-button-container">
-                <button class="modal-button-send" type="button">Send</button>
-            </div>
+                    <button class="modal-button-send" type="button">Send</button>
+
+                </div>
 
         </div>
+
+
+
+    </div>
+
+    </form>
+
+
 
     </div>
 
