@@ -769,19 +769,14 @@ a {
   border: 1.25px solid var(--color-primary);
   border-radius: 2px;
   cursor: pointer;
+  background-color: var(--color-white);
 }
 .checkbox-icon {
   position: relative;
   fill: var(--icons-text);
 }
-/* .checkbox :checked + .checkbox-form-icon {
-  background-image: url("/images/icons.svg#icon-click");
-  background-color: var(--color-brand);
-} */
 .checkbox:checked + .checkbox-form-icon {
-  background-image: url("/images/icons.svg#icon-click");
   background-color: var(--color-brand);
-
   border-color: var(--color-brand);
 }
 .modal-link-checkbox {
