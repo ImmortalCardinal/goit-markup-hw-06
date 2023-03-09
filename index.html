@@ -812,8 +812,8 @@
             <div class="form-footer">
 
                 <form name="form-subscribe" autocomplete="on" novalidate>
-
-                    <label for="subscribe-footer" class="social-footer">Subscribe</label>
+                    <p class="social-footer">Subscribe</p>
+                    <label hidden>Subscribe</label>
 
                     <div class="subscribe-form">
 
@@ -861,30 +861,29 @@
 
             <form class="modal-form" name="form-modal" autocomplete="on" novalidate>
 
-                <div class="text-input">
 
-                    <label class="modal-label" for="modal-name">
+                <label class="modal-label" for="modal-name">
 
-                        Name</label>
+                    Name</label>
 
 
-                    <div class="form-icon">
-                        <input class="input" type="text" id="modal-name" name="modal-name"><svg class="modal-icon">
+                <div class="form-icon">
+                    <input class="input" type="text" id="modal-name" name="modal-name"><svg class="modal-icon">
 
-                            <use href="./images/icons.svg#icon-person">
-                            </use>
+                        <use href="./images/icons.svg#icon-person">
+                        </use>
 
-                        </svg>
-
-                    </div>
+                    </svg>
 
                 </div>
+
 
 
 
                 <label class="modal-label" for="modal-phone">Phone</label>
 
                 <div class="form-icon">
+
                     <input class="input" type="tel" id="modal-phone" name="modal-phone" pattern="^\[0-9]{12}">
 
                     <svg class="modal-icon">

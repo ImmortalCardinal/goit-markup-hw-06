@@ -769,7 +769,7 @@ a {
   border: 1.25px solid var(--color-primary);
   border-radius: 2px;
   cursor: pointer;
-  background-color: var(--color-white);
+  background-color: var(--icons-text);
 }
 .checkbox-icon {
   position: relative;
@@ -801,6 +801,8 @@ a {
 } */
 .modal-button-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .modal-button-send {
   width: 169px;
@@ -810,7 +812,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin: 0 auto;
   cursor: pointer;
   border: 1px solid rgba(33, 33, 33, 0.2);
   color: var(--color-white);
